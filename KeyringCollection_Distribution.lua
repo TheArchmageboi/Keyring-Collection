@@ -13,8 +13,8 @@ if SandboxVars and SandboxVars.KeyringCollection and SandboxVars.KeyringCollecti
     enableMod = SandboxVars.KeyringCollection.EnableMod
 end
 
--- Each weight = (total real vanilla flavor-keyring weight in that exact location) /
--- total item count in this mod / 2, keeping combined real+ours at vanilla's original
+-- Each weight = (total vanilla flavor-keyring weight in that exact location) /
+-- total item count in this mod / 2, keeping combined at vanilla's original
 -- total. Recalculated for 180 total items (fox added, now includes pride flags too).
 
 if enableMod then
