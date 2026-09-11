@@ -1,0 +1,9 @@
+VERSION = 1,
+
+option KeyringCollection.EnableMod
+{
+	type = boolean,
+	default = true,
+	page = KeyringCollection,
+	translation = EnableMod,
+}
